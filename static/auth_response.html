@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Authorized! - Check-in Fox</title>
+	<style type="text/css">
+		body { background-color: #36b6e6; color: white; text-align: center; font-family: sans-serif; padding-top: 2em; }
+	</style>
+</head>
+
+<body>
+	<img src="images/icon.png" alt="Check-in Fox" />
+	<h2>Successful Authentication!</h2>
+	<p>Now you can publish check-ins to FourSquare via the Check-in Fox application.</p>
+
+<script type="text/javascript">
+	window.opener.postMessage("Authenticated","%KEYSTRING%");
+	setTimeout(function () { window.close(); }, 4000)
+</script>
+</body>

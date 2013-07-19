@@ -1,31 +1,31 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "name": "CheckinFoxHosted",
+  "version": "0.4.0",
+  "description": "Check-in Fox - foursquare client for FirefoxOS",
   "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
+    "checkin","fox","firefoxos","foursquare"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url":  "http://openshift.redhat.com/"
+    "name": "Flaki",
+    "email": "slsoftworks@gmail.com",
+    "url":  "http://twitter.com/slsoftworks"
   },
-  "homepage": "http://openshift.redhat.com/",
+  "homepage": "http://checkinfox-flaki.rhcloud.com/",
   "repository": {
     "type": "git",
-    "url": "https://gitub.com/openshift/crankcase"
+    "url": "https://gitub.com/flaki/checkinfox-hosted"
   },
 
   "engines": {
-    "node": ">= 0.6.0",
+    "node": ">= 0.10.0",
     "npm": ">= 1.0.0"
   },
 
   "dependencies": {
-    "express": "*"
+    "when": "*"
+    ,"string": "*"
+    ,"cookies": "*"
+    ,"node-localstorage": "*"
   },
   "devDependencies": {},
   "bundleDependencies": [],
