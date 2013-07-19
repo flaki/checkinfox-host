@@ -16,7 +16,7 @@
 	<p>Now you can publish check-ins to FourSquare via the Check-in Fox application.</p>
 
 <script type="text/javascript">
-	window.opener.postMessage("Authenticated","*","%KEYSTRING%");
+	window.opener.postMessage("%KEYSTRING%","*");
 	setTimeout(function () { window.close(); }, 4000)
 </script>
 </body>
