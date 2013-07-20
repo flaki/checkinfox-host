@@ -60,7 +60,7 @@ var MIMETable={
 	,jpg:		'image/jpg'
 	,gif:		'image/gif'
 
-	,webapp:	'application/x-web-app-manifest+json'
+	,manifest:	'application/x-web-app-manifest+json'
 	,appcache:	'text/cache-manifest'
 
 	,zip:		'application/zip'

@@ -10,7 +10,7 @@ their API.
 What is Check-in Fox anyway?
 ----------------------------
 
-Check-in Fox is a foursquare(http://m.foursquare.com) client for (Firefox OS)(http://www.mozilla.org/en-US/firefox/os/)
+Check-in Fox is a [foursquare](http://m.foursquare.com) client for [Firefox OS](http://www.mozilla.org/en-US/firefox/os/)
 ‒ Mozilla's new open-source operating system.
 
 See what your friends are up to and share your favorite places, best picks

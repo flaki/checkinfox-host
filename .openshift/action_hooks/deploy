@@ -14,3 +14,4 @@ source "$OPENSHIFT_REPO_DIR/.openshift/lib/utils"
 #  installed.
 ensure_node_is_installed
 
+cp ~/app-root/data/APP_CREDENTIALS.json ~/app-root/repo/*
